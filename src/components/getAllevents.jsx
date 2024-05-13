@@ -31,7 +31,6 @@ const Events = () => {
         <NavigationBar/>
         <div className="container mt-4">
             <h1 className="text-center mb-4">List of Events</h1>
-            <Link to="/add" className="btn btn-primary mb-3">Add Event</Link>
             <Card>
                 <Card.Body>
                     <Table striped bordered hover responsive>

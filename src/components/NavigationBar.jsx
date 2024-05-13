@@ -1,20 +1,30 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-
-function NavigationBar(){
-    return(
-
-    <div className='d-flex justify-content-center align-items-center vh-100'>
-    <div className='bg-white border shadow p-4' style={{ width: '80%', maxWidth: '800px' }}>
-        <Link to="/">events</Link>
-        <Link to="/add" className="ml-2 btn btn-primary">Add Event</Link>
-    </div>
-</div>
-
-    )
+function NavigationBar() {
+  return (
+    <>
+      <div className="bg-blue-500 p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="text-white font-bold text-xl">Atelier React</div>
+          <div className="flex space-x-4">
+          <Link to="/events" className="text-white hover:text-gray-300">
+             My Events
+            </Link>
+            <Link to="/events" className="text-white hover:text-gray-300">
+              Events
+            </Link>
+            <Link to="/events/addEventRedux" className="text-white hover:text-gray-300">
+              Add EventRx
+            </Link>
+            <Link to="/add" className="text-white hover:text-gray-300">
+              Add Event
+            </Link>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default NavigationBar;
-

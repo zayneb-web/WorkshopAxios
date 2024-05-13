@@ -26,9 +26,31 @@
       "description": "this is our new Logo ! ",
       "nbTickets": "2",
       "price": "1",
-      "img": "",
+      "img": "event3.jpg",
       "nbParticipants": "10",
       "like": false
+    },
+    {
+      "id": "363e",
+      "name": "better call us",
+      "description": "mm",
+      "date": "",
+      "time": "",
+      "isLiked": false,
+      "nbParticipants": 0,
+      "nbTickets": 0,
+      "img": {}
+    },
+    {
+      "id": "489f",
+      "name": "better call us",
+      "description": "nb",
+      "date": "",
+      "time": "",
+      "isLiked": false,
+      "nbParticipants": 0,
+      "nbTickets": 0,
+      "img": {}
     }
   ]
 }
